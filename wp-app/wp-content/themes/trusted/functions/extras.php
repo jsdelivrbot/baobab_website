@@ -916,9 +916,10 @@ if(!function_exists( 'trusted_powered_by' )){
 	function trusted_powered_by(){
 		?>
 				<div class="site-info">
-					<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'trusted' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'trusted' ), 'WordPress' ); ?></a>
-					<span class="sep"> | </span>
-					<?php printf( esc_html__( 'Theme: %2$s by %1$s', 'trusted' ), 'uXL Themes', '<a href="https://uxlthemes.com/theme/trusted/" rel="designer">Trusted</a>' ); ?>
+					<a href="<?php echo esc_url( __( 'https://www.patmoscafe.co.za/', 'trusted' ) ); ?>"><?php printf( esc_html__( 'Developed by %s', 'trusted' ), 'Patmos Cafe' ); ?></a>
+					<!--<span class="sep"> | </span>
+					<#?php printf( esc_html__( 'Theme: %2$s by %1$s', 'trusted' ), 'uXL Themes', '<a href="https://uxlthemes.com/theme/trusted/" rel="designer">Trusted</a>' ); ?>
+					-->
 				</div>
 		<?php
 	}
